@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-purple{
+    background-color: purple;
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        background-color: royalblue;
+    }
+    .row{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: brown;
+    }
+    .row{
+        font-size: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
